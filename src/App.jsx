@@ -1,6 +1,12 @@
+import { useState } from 'react';
 import data from '../src/data'
 
+
 const App = () => {
-  return <h2>Birthday Reminder - Starter</h2>;
+  const [people, setPeople] = useState(data)
+  return (
+    <>
+    </>
+  );
 };
 export default App;
